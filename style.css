@@ -88,26 +88,6 @@ h2 span {
     background:
         linear-gradient(
             90deg,
-            rgba(16,16,16,0.98),
-            rgba(16,16,16,0.75)
-        ),
-        radial-gradient(
-            circle at 80% 40%,
-            #49301d,
-            #101010 65%
-        );
-}
-.hero {
-    min-height: 85vh;
-    padding: 140px 8% 90px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
-    background:
-        linear-gradient(
-            90deg,
             rgba(16,16,16,0.96) 0%,
             rgba(16,16,16,0.78) 45%,
             rgba(16,16,16,0.25) 100%
