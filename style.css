@@ -374,7 +374,8 @@ footer {
         flex-direction: column;
         text-align: center;
     }
- /* SOCIAL MEDIA ICONS */
+}
+/* SOCIAL MEDIA ICONS */
 
 .social-links {
     display: flex;
@@ -393,5 +394,4 @@ footer {
 .social-links a:hover {
     color: #ffffff;
     transform: translateY(-5px);
-}
 }
