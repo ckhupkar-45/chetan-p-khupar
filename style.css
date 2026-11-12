@@ -382,18 +382,19 @@ footer {
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    align-items: center;
+    gap: 30px;
     margin-top: 35px;
 }
 
-.social-links a {
-    color: var(--accent);
-    font-size: 28px;
+.contact-section .social-links a {
+    color: #d88a45 !important;
+    font-size: 38px;
     text-decoration: none;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-.social-links a:hover {
-    color: #ffffff;
-    transform: translateY(-5px);
+.contact-section .social-links a:hover {
+    color: #ffffff !important;
+    transform: translateY(-6px) scale(1.1);
 }
