@@ -322,14 +322,21 @@ h2 span {
 /* FOOTER */
 
 footer {
-    padding: 30px 8%;
-    border-top: 1px solid var(--border);
+    padding: 35px 8%;
+    border-top: 1px solid var(--accent);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 15px;
     flex-wrap: wrap;
+    background: #101010;
     color: var(--muted);
     font-size: 11px;
+    letter-spacing: 1px;
+}
+
+footer p:first-child {
+    color: var(--accent);
 }
 
 /* RESPONSIVE DESIGN */
