@@ -374,4 +374,24 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+ /* SOCIAL MEDIA ICONS */
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.social-links a {
+    color: var(--accent);
+    font-size: 28px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ffffff;
+    transform: translateY(-5px);
+}
 }
