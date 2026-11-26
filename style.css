@@ -613,3 +613,26 @@ footer p:first-child {
     }
 }
 
+/* FANTASY SKILL ICONS */
+
+.skills-grid .skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 260px;
+}
+
+.skills-grid .skill-card img {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    filter: drop-shadow(0 0 5px rgba(212,175,55,0.3));
+    transition: 0.35s ease;
+}
+
+.skills-grid .skill-card:hover img {
+    transform: translateY(-6px) scale(1.1);
+    filter: drop-shadow(0 0 12px rgba(212,175,55,0.8));
+}
+
