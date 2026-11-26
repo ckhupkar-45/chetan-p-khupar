@@ -769,3 +769,156 @@ footer p:first-child {
     }
 }
 
+/* ==========================================
+   PREMIUM BLACK & GOLD ABOUT SECTION
+========================================== */
+
+.about-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr;
+    align-items: center;
+    gap: 55px;
+    margin-top: 35px;
+}
+
+.about-content {
+    position: relative;
+    z-index: 2;
+}
+
+.about-content h2 {
+    line-height: 1.4;
+    margin-bottom: 30px;
+    color: #F5F5F5;
+}
+
+.about-content h2 span {
+    color: #D4AF37;
+}
+
+.about-content p {
+    color: #C0C0C0;
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 20px;
+    max-width: 750px;
+}
+
+.about-tag {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 13px 20px;
+    border: 1px solid #98751F;
+    color: #D4AF37;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: rgba(212,175,55,0.04);
+}
+
+/* GOLD CREATOR EMBLEM */
+
+.about-emblem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 320px;
+    padding: 20px;
+    background: radial-gradient(
+        circle,
+        #30200B,
+        #101010 70%
+    );
+    border: 1px solid rgba(212,175,55,0.55);
+    border-radius: 50%;
+    box-shadow:
+        0 0 25px rgba(212,175,55,0.12),
+        inset 0 0 30px rgba(212,175,55,0.08);
+    transition: 0.4s ease;
+}
+
+.about-emblem-inner {
+    width: 230px;
+    height: 230px;
+    border: 2px solid #D4AF37;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow:
+        inset 0 0 25px rgba(212,175,55,0.15),
+        0 0 15px rgba(212,175,55,0.15);
+}
+
+.about-symbol {
+    color: #E5BD55;
+    font-size: 68px;
+    text-shadow: 0 0 18px rgba(212,175,55,0.7);
+}
+
+.about-emblem-inner h3 {
+    color: #F5D77A;
+    letter-spacing: 3px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.about-emblem-inner p {
+    color: #B99A4B;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.about-decoration {
+    color: #D4AF37;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+/* HOVER EFFECT */
+
+.about-emblem:hover {
+    transform: scale(1.04);
+    box-shadow:
+        0 0 45px rgba(212,175,55,0.3),
+        inset 0 0 30px rgba(212,175,55,0.15);
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+        line-height: 1.9;
+    }
+
+    .about-emblem {
+        min-height: 260px;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .about-emblem-inner {
+        width: 190px;
+        height: 190px;
+    }
+
+    .about-symbol {
+        font-size: 55px;
+    }
+
+}
+
