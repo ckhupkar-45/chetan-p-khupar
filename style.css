@@ -636,3 +636,80 @@ footer p:first-child {
     filter: drop-shadow(0 0 12px rgba(212,175,55,0.8));
 }
 
+
+/* ==================================
+   RAMAYANA SPECIAL PORTAL BUTTON
+================================== */
+
+.ramayana-card {
+    border-color: rgba(212, 175, 55, 0.5);
+}
+
+.ramayana-portal-link {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    margin: 20px !important;
+    padding: 20px 12px;
+    text-align: center;
+    text-decoration: none !important;
+    background: radial-gradient(
+        circle,
+        #211708,
+        #0A0907 75%
+    );
+    border: 1px solid #94701F;
+    border-radius: 10px;
+    transition: all 0.35s ease;
+}
+
+.ramayana-portal-link img {
+    width: 125px;
+    height: 125px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 9px rgba(212,175,55,0.55));
+    transition: 0.4s ease;
+}
+
+.ramayana-portal-text {
+    color: #F5D77A;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.ramayana-portal-subtitle {
+    color: #D4AF37;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.ramayana-portal-link:hover {
+    transform: translateY(-5px);
+    border-color: #F5D77A;
+    background: radial-gradient(
+        circle,
+        #39250C,
+        #100B05
+    );
+    box-shadow: 0 0 25px rgba(212,175,55,0.25);
+}
+
+.ramayana-portal-link:hover img {
+    transform: scale(1.12);
+    filter: drop-shadow(0 0 18px rgba(255,190,50,0.9));
+}
+
+.ramayana-portal-link:hover .ramayana-portal-text {
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .ramayana-portal-link img {
+        width: 105px;
+        height: 105px;
+    }
+}
+
